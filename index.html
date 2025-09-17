@@ -495,19 +495,17 @@
       </div>
     </footer>
 
-    <form class="modal-form">
-      <div class="backdrop is-open">
-        <div class="modal">
-          <button class="modal-close" type="button">
-            <svg class="modal-close-svg" width="8" height="8">
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-close" type="button">
+          <svg class="modal-close-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
 
-          <p class="modal-title">
-            Leave your contacts and we will call you back
-          </p>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
 
+        <form class="modal-form">
           <div class="modal-wrapper">
             <label class="modal-label" for="user-name">Name</label>
             <div class="modal-input-wrapper">
@@ -584,8 +582,8 @@
             </label>
           </div>
           <button class="modal-button" type="submit">Send</button>
-        </div>
+        </form>
       </div>
-    </form>
+    </div>
   </body>
 </html>
